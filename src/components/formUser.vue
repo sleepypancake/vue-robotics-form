@@ -114,6 +114,7 @@
 import useVuelidate from '@vuelidate/core'
 import { required, minLength, maxLength, email, numeric } from '@vuelidate/validators'
 
+
 export default {
    setup () {
     return { v$: useVuelidate() }
@@ -131,7 +132,7 @@ export default {
         birth_place:  '',
         email:  '',
         phone:  '',
-        registration_date:  '',
+        registration_date:  new Date().toLocaleDateString(),
         last_visit:  ''
       }
     }
@@ -158,8 +159,9 @@ export default {
   methods: {
     checkForm() {
       this.v$.form.$touch()
-      if (this.v$.form.$error) {
-        console.log('валидация успешна')
+      if (!this.v$.form.$error) {
+        this.$store.dispatch('POST_USERS_TO_API', this.form);
+        // this.$store.dispatch('GET_USERS_FROM_API');
       }
     }
   }

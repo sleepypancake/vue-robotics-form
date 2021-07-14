@@ -1,7 +1,6 @@
 {
   "users": [
     {
-      "id": "5c41a96958e72726bd367d19",
       "name": "Madden",
       "surname": "hhhjcl",
       "last_name": "Robert",
@@ -10,22 +9,10 @@
       "email": "madden@mail.ru",
       "phone": "79999999999",
       "registration_date": "2019-01-13",
-      "last_visit": "2021-01-23"
+      "last_visit": "2021-01-23",
+      "id": "5c41a96958e72726bd367d19"
     },
     {
-      "id": "5c41a96958e72726bd367d19",
-      "name": "Madden",
-      "surname": "Mclaughlin",
-      "last_name": "Robert",
-      "birthday": "2014-01-13",
-      "birth_place": "LA",
-      "email": "madden@mail.rumadden@mail.rumadden@mail",
-      "phone": "79999999999",
-      "registration_date": "2019-01-13",
-      "last_visit": "2021-01-23"
-    },
-    {
-      "id": "5c41a96958e72726bd367d19",
       "name": "Madden",
       "surname": "Mclaughlin",
       "last_name": "Robert",
@@ -34,10 +21,10 @@
       "email": "madden@mail.ru",
       "phone": "79999999999",
       "registration_date": "2019-01-13",
-      "last_visit": "2021-01-23"
+      "last_visit": "2021-01-23",
+      "id": "5c41a96958e72726bd367d1eee9"
     },
     {
-      "id": "5c41a96958e72726bd367d19",
       "name": "Madden",
       "surname": "Mclaughlin",
       "last_name": "Robert",
@@ -46,7 +33,68 @@
       "email": "madden@mail.ru",
       "phone": "79999999999",
       "registration_date": "2019-01-13",
-      "last_visit": "2021-01-23"
+      "last_visit": "2021-01-23",
+      "id": "5c41a96958e72726bd36rre7d19"
+    },
+    {
+      "name": "test",
+      "surname": "test",
+      "last_name": "test",
+      "birthday": "2021-07-09",
+      "birth_place": "test",
+      "email": "test@test.com",
+      "phone": "99999999",
+      "registration_date": "15.07.2021",
+      "last_visit": "",
+      "id": "_Ak2NeR"
+    },
+    {
+      "name": "ffff",
+      "surname": "ffff",
+      "last_name": "ffff",
+      "birthday": "2021-07-09",
+      "birth_place": "ffff",
+      "email": "ffff@test.com",
+      "phone": "444444",
+      "registration_date": "15.07.2021",
+      "last_visit": "",
+      "id": "bGURj8f"
+    },
+    {
+      "name": "hrhr",
+      "surname": "hrhr",
+      "last_name": "hrhrh",
+      "birthday": "2021-07-08",
+      "birth_place": "grggr",
+      "email": "hrhhrhr@fff.com",
+      "phone": "99999",
+      "registration_date": "15.07.2021",
+      "last_visit": "",
+      "id": "w_hkNLY"
+    },
+    {
+      "name": "тест",
+      "surname": "тестик",
+      "last_name": "тестович",
+      "birthday": "2021-06-30",
+      "birth_place": "тестово",
+      "email": "ntcn@test.com",
+      "phone": "99999",
+      "registration_date": "15.07.2021",
+      "last_visit": "",
+      "id": "SuF6bCG"
+    },
+    {
+      "name": "frfr",
+      "surname": "frfr",
+      "last_name": "rfrr",
+      "birthday": "2021-07-01",
+      "birth_place": "frrr",
+      "email": "frr@bs.com",
+      "phone": "33333",
+      "registration_date": "15.07.2021",
+      "last_visit": "",
+      "id": "4i3GL8v"
     }
   ]
 }

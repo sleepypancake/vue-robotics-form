@@ -32,12 +32,13 @@ export default {
     ])
   },
   methods: {
-    ...mapActions([
-      'GET_USERS_FROM_API'
-    ])
+    ...mapActions({
+      getData: 'GET_USERS_FROM_API',
+      postData: 'POST_USERS_TO_API'
+    })
   },
   mounted() {
-    this.GET_USERS_FROM_API()
+    this.getData()
   }
 }
 </script>

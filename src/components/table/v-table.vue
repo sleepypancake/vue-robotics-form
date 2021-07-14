@@ -3,7 +3,7 @@
   table.table.table-hover.mb-5
     thead
       tr
-        th(
+        th.table__sort(
           scope="col"
           @click="sortByName"
         ) ФИО &#x2195
@@ -86,6 +86,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.table__sort {
+  cursor: pointer;
+}
+
 .page-item {
   margin: 0 2px;
   &:hover{
