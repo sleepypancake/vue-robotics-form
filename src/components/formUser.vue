@@ -161,7 +161,6 @@ export default {
       this.v$.form.$touch()
       if (!this.v$.form.$error) {
         this.$store.dispatch('POST_USERS_TO_API', this.form);
-        // this.$store.dispatch('GET_USERS_FROM_API');
       }
     }
   }
