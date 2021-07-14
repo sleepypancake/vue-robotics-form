@@ -1,15 +1,43 @@
-<template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<template lang="pug">
+.container
+  .text-center.mb-5
+    button.btn.btn-success(
+      type='button'
+      data-bs-toggle='modal'
+      data-bs-target='#userModal'
+      ) Добавить пользователя
+  v-table(
+    :users_data="USERS"
+  )
+  formUser
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import vTable from './components/table/v-table'
+import formUser from './components/formUser'
+import { mapActions, mapGetters } from 'vuex'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    vTable,
+    formUser
+  },
+  data: () => {
+    return {}
+  },
+  computed: {
+    ...mapGetters([
+      'USERS'
+    ])
+  },
+  methods: {
+    ...mapActions([
+      'GET_USERS_FROM_API'
+    ])
+  },
+  mounted() {
+    this.GET_USERS_FROM_API()
   }
 }
 </script>
@@ -19,7 +47,6 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
   margin-top: 60px;
 }

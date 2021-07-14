@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": "5c41a96958e72726bd367d19",
+      "name": "Madden",
+      "surname": "hhhjcl",
+      "last_name": "Robert",
+      "birthday": "2014-01-13",
+      "birth_place": "LA",
+      "email": "madden@mail.ru",
+      "phone": "79999999999",
+      "registration_date": "2019-01-13",
+      "last_visit": "2021-01-23"
+    },
+    {
+      "id": "5c41a96958e72726bd367d19",
+      "name": "Madden",
+      "surname": "Mclaughlin",
+      "last_name": "Robert",
+      "birthday": "2014-01-13",
+      "birth_place": "LA",
+      "email": "madden@mail.rumadden@mail.rumadden@mail",
+      "phone": "79999999999",
+      "registration_date": "2019-01-13",
+      "last_visit": "2021-01-23"
+    },
+    {
+      "id": "5c41a96958e72726bd367d19",
+      "name": "Madden",
+      "surname": "Mclaughlin",
+      "last_name": "Robert",
+      "birthday": "2014-01-13",
+      "birth_place": "LA",
+      "email": "madden@mail.ru",
+      "phone": "79999999999",
+      "registration_date": "2019-01-13",
+      "last_visit": "2021-01-23"
+    },
+    {
+      "id": "5c41a96958e72726bd367d19",
+      "name": "Madden",
+      "surname": "Mclaughlin",
+      "last_name": "Robert",
+      "birthday": "2014-01-13",
+      "birth_place": "LA",
+      "email": "madden@mail.ru",
+      "phone": "79999999999",
+      "registration_date": "2019-01-13",
+      "last_visit": "2021-01-23"
+    }
+  ]
+}
